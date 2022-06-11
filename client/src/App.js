@@ -1,10 +1,9 @@
-import SummaryForm from "./pages/summary/SummaryForm";
+//import SummaryForm from "./pages/summary/SummaryForm";
+import Option from "./pages/entry/Options"
 
 function App() {
   return (
-    <div className="App">
-      <SummaryForm />
-    </div>
+      <Option optionType="scoops" />
   );
 }
 
