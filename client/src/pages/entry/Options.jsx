@@ -25,6 +25,7 @@ function Options({ optionType }) {
   const optionItems = options.map((opt, i) => (
     <ItemComponent name={opt.name} imagePath={opt.imagePath} key={i} />
   ));
+
   if (error) {
     return <AlertBanner />;
   } else {
